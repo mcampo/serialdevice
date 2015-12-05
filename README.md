@@ -1,2 +1,2 @@
 # serialdevice
-Simple communication with hardware devices through serial port
+Simple serialport wrapper to allow connection health checks.

@@ -1,0 +1,28 @@
+{
+  "name": "serialdevice",
+  "version": "1.0.0",
+  "description": "Simple serialport wrapper to allow connection health checks.",
+  "main": "serialdevice.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha --recursive test"
+  },
+  "author": "Mariano Campo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcampo/serialdevice"
+  },
+  "bugs": {
+    "url": "https://github.com/mcampo/serialdevice/issues"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "serialport": "^2.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2"
+  }
+}
